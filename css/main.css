@@ -31,9 +31,7 @@ img {
 }
 
 .title {
-    text-align: center;
     margin: 0;
-    padding-bottom: .5em;
 }
 
 .nav {
@@ -53,6 +51,10 @@ header {
 
 }
 
+.footer {
+    background:#DDDDDD;
+}
+
 @media only screen and (min-width: 20em) {
     
     .nav li{
@@ -62,6 +64,7 @@ header {
     .nav {
         text-align: center;
     }
+    
 }
 
 @media only screen and (min-width: 40em) {
@@ -73,12 +76,9 @@ header {
     .nav {
         float: left;
     }
+    
+    
 
-}
-
-.gutter {
-    padding-left: 2.5em;
-    padding-right: 2.5em;
 }
 
 .subhead {
@@ -86,4 +86,12 @@ header {
     background:#F0F0F0;
     padding-top: .5em;
     padding-bottom: .5em;
+}
+
+.lightgrey {
+    background:#F0F0F0;
+}
+
+.grey {
+    background:#E8E8E8;
 }
