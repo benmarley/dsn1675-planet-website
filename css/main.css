@@ -88,6 +88,11 @@ header {
     display: none;
 }
 
+.hide-dot {
+    display:none;
+    color: black;
+}
+
 
 @media only screen and (min-width: 25em) {
     
@@ -105,6 +110,10 @@ header {
     
     .hide {
         display: inline-block;
+    }
+    
+    .hide-dot {
+        display: inline-block
     }
     
 }
@@ -129,10 +138,11 @@ header {
     
     .float {
         float: left;
+    }  
+    .medium-gutter {
+        padding-left: 1em;
+        padding-right: 1em;
     }
-    
-
-  
 }
 
 .subhead {
