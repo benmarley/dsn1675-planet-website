@@ -16,6 +16,32 @@ html {
   text-size-adjust: 100%;
 }
 
+@media only screen and (min-width: 60em) {
+    
+    html {
+        font-size: 110%;
+    }
+    
+}
+
+@media only screen and (min-width: 90em) {
+    
+    html {
+        font-size: 120%;
+    }
+}
+
+@media only screen and (min-width: 120em) {
+
+    html {
+        font-size: 130%;
+    }
+}
+
+
+
+
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
@@ -40,6 +66,7 @@ img {
     text-align: left;
     padding: 0;
 }
+
 
 a {
     text-decoration: none;
@@ -66,6 +93,10 @@ header {
         text-align: center;
     }
     
+    .copyright {
+    text-align: center;
+    }
+    
 }
 
 @media only screen and (min-width: 40em) {
@@ -77,6 +108,20 @@ header {
     .nav {
         float: left;
     }
+    
+    .copyright {
+        text-align: left;
+    }
+
+    .navright {
+        float: right;
+    }
+    
+    .float {
+        float: left;
+    }
+    
+
   
 }
 
@@ -94,3 +139,20 @@ header {
 .grey {
     background:#E8E8E8;
 }
+
+@media only screen and (min-width: 60em) {
+
+    dt {
+    float: left;
+    clear: left;
+    width: 8rem;
+}
+
+
+    dd {
+    float: left;
+}
+    
+}
+
+
