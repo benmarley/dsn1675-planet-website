@@ -39,10 +39,6 @@ html {
     }
 }
 
-
-
-
-
 *, *:before, *:after {
   box-sizing: inherit;
 }
@@ -175,8 +171,7 @@ header {
     
     .gutterspace {
         padding-left: 1em;
-    
-    }
+}
     
 }
 
