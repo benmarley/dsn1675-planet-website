@@ -84,8 +84,12 @@ header {
     background:#DDDDDD;
 }
 
+.hide {
+    display: none;
+}
 
-@media only screen and (min-width: 20em) {
+
+@media only screen and (min-width: 25em) {
     
     .nav li{
         display: inline-block;
@@ -99,9 +103,13 @@ header {
     text-align: center;
     }
     
+    .hide {
+        display: inline-block;
+    }
+    
 }
 
-@media only screen and (min-width: 40em) {
+@media only screen and (min-width: 38em) {
     
     .title {
         float: left;
