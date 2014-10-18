@@ -84,12 +84,6 @@ header {
     display: none;
 }
 
-.hide-dot {
-    display:none;
-    color: black;
-}
-
-
 @media only screen and (min-width: 25em) {
     
     .nav li{
@@ -106,12 +100,7 @@ header {
     
     .hide {
         display: inline-block;
-    }
-    
-    .hide-dot {
-        display: inline-block
-    }
-    
+    }    
 }
 
 @media only screen and (min-width: 38em) {
