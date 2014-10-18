@@ -136,8 +136,7 @@ header {
         float: left;
     }  
     .medium-gutter {
-        padding-left: 1em;
-        padding-right: 1em;
+        padding-right: 1.5em;
     }
 }
 
@@ -164,7 +163,6 @@ header {
         width: 8rem;
 }
 
-
     dd {
         float: left;
 }
@@ -172,6 +170,9 @@ header {
     .gutterspace {
         padding-left: 1em;
 }
+    .large-gutter {
+        padding-left: 1.5em;
+    }
     
 }
 
