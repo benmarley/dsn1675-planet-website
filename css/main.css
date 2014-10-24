@@ -71,7 +71,13 @@ img {
 .nav {
     list-style-type: none;
     text-align: left;
-    padding: 0;
+}
+
+.nav a:hover, 
+.nav a:focus,
+.nav a:active {
+    background-color:blue;
+    color: white;
 }
 
 
