@@ -10,13 +10,18 @@
 </head>
 <body>
     
-    <div class="grid grey">
+    <ul class="skip-links">
+        <li><a href="#main">Skip to main content</a></li>
+        <li><a href="#navigation">Skip to main navigation</a></li>
+    </ul>
+    
+    <div role="banner" class="grid grey">
         <div class="unit unit-xs-1 unit-s-1 unit-m-1-4 unit-l-1-3">
             <h1 class="title peta">Saturn</h1>
         </div>
         <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
             <nav>
-                <ul class="nav mega pad-top-half">
+                <ul id="navigation" role="navigation" class="nav mega pad-top-half">
                     <li class="gutter-half push-half"><a href="index.html">Planet</a></li>
                     <li class="gutter-half push-half"><a href="moons.html">Moons</a></li>
                     <li class="gutter-half push-half"><a href="exploration.html">Exploration</a></li>
@@ -25,13 +30,14 @@
         </div>
     </div>
     
-    <main>
-        <h3 class="subhead peta pad-bottom gutter-half">Exploration</h3>
+    <main id="main" role="main">
+        <h2 class="subhead peta pad-bottom gutter-half">Exploration</h2>
+    
     </main>
     
     <div class="grid footer gutter-half">
             <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-4">
-                <p class="micro unit push-none pad-top-half">© 2014 Saturn Planetary Consortium</p>
+                <p role="contentinfo" class="micro unit push-none pad-top-half">© 2014 Saturn Planetary Consortium</p>
             </div>
             <nav class="unit unit-xs-1 unit-s-1-offset unit-m-1-3 unit-l-1-3">
                 <ul class="nav milli pad-top-half">

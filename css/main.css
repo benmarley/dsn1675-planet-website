@@ -48,6 +48,16 @@ body {
   padding: 0;
 }
 
+a:focus {
+    outline:3px solid #000; 
+}
+
+a:link,
+a:active {
+    /*It's okay to remove the focus rectangle for mouse users. Its not okay to remove it form the keyboard users.*/
+    outline:none;
+}
+
 img {
   display: block;
   width: 100%;
@@ -165,5 +175,24 @@ header {
     
 }
 
+.skip-links {
+    margin:0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.skip-links a {
+    position: absolute;
+    top: -3em;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5em 0.75em;
+    font-size: 1.25em; 
+}
+
+.skip-links a:focus {
+    top: 0;
+}
 
 
