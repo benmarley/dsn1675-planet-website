@@ -175,13 +175,13 @@ a {
 
 @media only screen and (min-width: 60em) {
 
-    dt {
+    .term-info {
         float: left;
         clear: left;
         width: 8rem;
 }
 
-    dd {
+    .data-info {
         float: left;
 }
     
