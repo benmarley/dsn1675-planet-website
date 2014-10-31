@@ -127,6 +127,66 @@ a {
 .skip-links a:focus {
     top: 0;
 }
+
+.radio {
+    white-space: nowrap;
+}
+
+label {
+    display: block;
+}
+
+input + label {
+    display: inline-block;
+}
+ul {
+    padding: 0;
+}
+
+.max-width {
+    width: 100%;
+}
+
+input {
+    border-color: #F8F8F8;
+    padding-bottom: 1.5em;
+}
+
+.main-grey {
+    background-color: #F0F0F0;   
+}
+
+.centered {
+    text-align: center;
+}
+
+.middle-object {
+    padding-left: 50%;
+}
+.max-height {
+    height: 15em;
+}
+
+textarea {
+    border-color: #F8F8F8;
+}
+
+.max-width-main {
+    max-width: 35em;
+}
+
+.dot {
+    display: block;
+}
+
+.margin-none {
+    margin:0;
+}
+
+button {
+    font-size: 1rem;
+}
+
 @media only screen and (min-width: 25em) {
     
     .nav li{
@@ -144,6 +204,11 @@ a {
     .hide {
         display: inline-block;
     }    
+    
+    .dot {
+        display: inline-block;
+    }
+
 }
 
 @media only screen and (min-width: 38em) {
