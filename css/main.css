@@ -80,7 +80,6 @@ img {
     color: white;
 }
 
-
 a {
     text-decoration: none;
     color: blue;
@@ -148,7 +147,9 @@ ul {
 }
 
 input {
-    border-color: #F8F8F8;
+    border-style: solid;
+    border-color: #E0E0E0;
+    border-width: .1em;
     padding-bottom: 1.5em;
 }
 
@@ -161,14 +162,15 @@ input {
 }
 
 .middle-object {
-    padding-left: 50%;
+    padding-left: 40%;
 }
 .max-height {
     height: 15em;
 }
 
 textarea {
-    border-color: #F8F8F8;
+    border-style: solid;
+    border-color: #E0E0E0;
 }
 
 .max-width-main {
@@ -184,7 +186,16 @@ textarea {
 }
 
 button {
-    font-size: 1rem;
+    font-size: 1.5rem;
+    border-style: solid;
+    border-width: .1em;
+    background-color:#F0F0F0; 
+    
+}
+
+.center-div {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 @media only screen and (min-width: 25em) {
@@ -255,6 +266,5 @@ button {
 }
     .large-gutter {
         padding-left: 1.5em;
-    }
-    
+}
 }
